@@ -113,7 +113,7 @@ div.storyboard
   
   /* Flex Container */
 
-#menu
+nav
 {display: flex;
 flex-direction: row-reverse;}
 
