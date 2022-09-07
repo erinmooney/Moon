@@ -5,22 +5,20 @@
         <meta charset="UTF-8" />
         <meta name="Erin Mooney" content="My Name" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="/docs/style.css"/>
-        {% feed_meta %}
-        {% seo %}
+        <link rel="stylesheet" type="text/css" href="style.css" />
+
         <link rel="shortcut icon" type="image/x-icon" href="{{site.url}}/favicon.ico"/> 
     </head>
     
-    <nav id="menu">         
-        <img class="birdmenu" src="images/Birdardresize.png"/> 
-        <div class="menuA">
-            <a href="index.html"> Home</a>  | <a href="resume.html"> Resume</a>  |  <a href="gallery.html"> Gallery</a>  |   <a href="game.html"> Games</a> | <a href="internship.html"> Internship</a>   
-        </div>
-        <img class="birdmenu" src="images/BirdardRightFacing.png"/>    
-    </nav>
-    
     <body>
-        {% include navigation.html %}
-        {{ content }}
+        
+        <nav id="menu">         
+            <img class="birdmenu" src="images/Birdardresize.png"/> 
+            <div class="menuA">
+                <a href="index.html"> Home</a>  | <a href="resume.html"> Resume</a>  |  <a href="gallery.html"> Gallery</a>  |   <a href="game.html"> Games</a> | <a href="internship.html"> Internship</a>   
+            </div>
+            <img class="birdmenu" src="images/BirdardRightFacing.png"/>    
+        </nav>
+        
     </body>
 </html>
