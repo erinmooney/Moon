@@ -12,6 +12,9 @@ nav {
     width:100%;
 }
 
+.birdmenu
+{max-width:105px;
+width:100%;}
 div.menuA {text-align: center; font-size: 2vw;
   display: block;
   border: 30px solid transparent;

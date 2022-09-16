@@ -18,7 +18,7 @@ width:100%;}
 div.menuA {text-align: center; font-size: 2vw;
   display: block;
   border: 30px solid transparent;
-  border-image-source: url(aesthetic/boarder.png);
+  border-image-source: url(images/boarder.png);
   border-image-repeat: repeat;
   padding-top: 2vw;
   padding-bottom: 2vw;
