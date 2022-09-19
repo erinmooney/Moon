@@ -4,14 +4,21 @@ body {
     font-family: arial, helvetica, sans-serif;
     font-size: 14pt;
 }
-nav {
+/*nav {
     display: flex;
     flex-direction: row-reverse;
     flex: 1;
     max-width:105px;
     width:100%;
-}
+}*/
 
+
+/*nav bar*/
+#menu
+{display: flex;
+flex-direction: row-reverse;}
+.birdframe
+{flex: 1;}
 .birdmenu
 {max-width:105px;
 width:100%;}
@@ -25,8 +32,17 @@ div.menuA {text-align: center; font-size: 2vw;
   border-image-slice: 110;
   flex: 5;}
 
+
 p {
     text-align: center;
+}
+
+/*RESUME*/
+
+.resume
+{
+    text-align: center;
+    
 }
 
 div.newspaper
@@ -36,6 +52,7 @@ div.newspaper
   column-rule-style: solid;
   column-rule: 1px double;
   margin: 10px;
+  text-align: center;
 }
 
 img {

@@ -15,16 +15,12 @@
  
     <body>
      
-        {% include nav.html %}
+     {% include nav.html %}
         
-        <!--The double set of curly braces is used to call the special variables set on a given page that uses this 
-        default layout. Here we put the title of the page inside <h1> tags.--> 
+        
         <h1>{{ page.title }}</h1>
         
-        <p>
-            {{ content }}
-        </p>
-        
+
         <div class="container">
             <!-- This special liquid template for {{content}} pulls in the distinct contents of a page that uses this default layout. -->  
             {{ content }}
@@ -32,7 +28,7 @@
         </div>
         
         <footer>
-            {{ content }}
+            <section><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.</section>
         </footer>
     </body>
 </html>
