@@ -84,8 +84,12 @@ a:active {
 
 .resume
 {
-    text-align: center;
-    width: 100%;
+  text-align: center;
+  list-style-type: none;
+  text-align: left;
+  width: 850px;
+  margin: auto;
+  padding: 35px;
 }
 .heading {
   background-color: lavender; 
