@@ -1,10 +1,17 @@
 body {
     background-color: Thistle;
+    color: DarkSlateGray;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 14pt;
+}
+
+/*{
+    background-color: Thistle;
     background-image: linear-gradient(#000033, #003366, Thistle);
     color: #FFFF66;
     font-family: arial, helvetica, sans-serif;
     font-size: 14pt;
-}
+}*/
 /*nav {
     display: flex;
     flex-direction: row-reverse;
@@ -37,21 +44,21 @@ p {
 }
 
 /* The animation code */
-@keyframes {
+/*@keyframes {
   from {background-color: white;}
   to {background-color: yellow;}
   to {background-color: light blue;}
-}
+}*/
 
 /* The element to apply the animation to */
-div {
+/*div {
   width: 100px;
   height: 100px;
   background-color: red;
   animation-name: example;
   animation-duration: 4s;
   animation-iteration-count: infinite;
-}
+}*/
 
 /*RESUME*/
 
