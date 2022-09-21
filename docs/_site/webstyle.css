@@ -43,6 +43,26 @@ p {
     text-align: center;
 }
 
+/* unvisited link */
+a:link {
+  color: DarkSlateGray;
+}
+
+/* visited link */
+a:visited {
+  color: DarkSlateGray;
+}
+
+/* mouse over link */
+a:hover {
+  color: cornflowerblue;
+}
+
+/* selected link */
+a:active {
+  color: DarkSlateGray;
+}
+
 /* The animation code */
 /*@keyframes {
   from {background-color: white;}
@@ -65,7 +85,22 @@ p {
 .resume
 {
     text-align: center;
+    width: 100%;
 }
+.heading {
+  background-color: lavender; 
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  border-radius: 15px 50px;
+
+  width: 390px;
+  padding: 3px;
+  border: 3px;
+  margin: auto;
+}
+
 
 div.newspaper
  {
