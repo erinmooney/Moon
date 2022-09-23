@@ -114,6 +114,7 @@ div.newspaper
   column-rule: 1px double;
   margin: 10px;
   text-align: center;
+  padding: 35px;
 }
 
 img {
