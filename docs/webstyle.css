@@ -103,6 +103,17 @@ a:active {
   padding: 3px;
   border: 3px;
   margin: auto;
+  
+-webkit-column-count: 2;
+     -moz-column-count: 2;
+          column-count: 2;
+  -webkit-column-width: 200px;
+     -moz-column-width: 200px;
+          column-width: 200px;
+          
+          -webkit-column-gap: 4em;
+     -moz-column-gap: 4em;
+          column-gap: 4em;
 }
 
 
@@ -125,6 +136,7 @@ img {
 h1 {
     text-align: center;
 }
+
 
 footer {
     width: 100%;
