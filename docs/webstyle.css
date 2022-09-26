@@ -1,5 +1,5 @@
 body {
-    background-color: Thistle;
+    background-color: #CCCCFF;
     color: DarkSlateGray;
     font-family: arial, helvetica, sans-serif;
     font-size: 14pt;
@@ -21,7 +21,7 @@ body {
 }*/
 
 
-/*nav bar*/
+/*Nav bar*/
 #menu
 {display: flex;
 flex-direction: row-reverse;}
@@ -140,7 +140,7 @@ h1 {
 
 footer {
     width: 100%;
-    background-color: Thistle /*#bad7e6*/ /*#D9E9D9*/;
+    background-color: #CCCCFF /*#bad7e6*/ /*#D9E9D9*/;
     padding: 5px;
     margin: auto;
     border-bottom-left-radius: 45px;
