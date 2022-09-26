@@ -1,5 +1,5 @@
 body {
-    background-color: #CCCCFF;
+    background-color: #99ccff;
     color: DarkSlateGray;
     font-family: arial, helvetica, sans-serif;
     font-size: 14pt;
@@ -140,7 +140,7 @@ h1 {
 
 footer {
     width: 100%;
-    background-color: #CCCCFF /*#bad7e6*/ /*#D9E9D9*/;
+    background-color: #99ccff /*#bad7e6*/ /*#D9E9D9*/;
     padding: 5px;
     margin: auto;
     border-bottom-left-radius: 45px;
