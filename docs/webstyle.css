@@ -169,3 +169,37 @@ div.boilerplate span {
 div.boilerplate img {
 width:6vw;
 /*position: relative; top:7px; right: -2px; */ }
+
+/* Gallery */
+.caption { 
+  list-style-type: none;
+  text-align: left;
+  width: 750px;
+  margin: auto;
+  padding: 35px;
+}
+img.photo {max-width:500px;width:50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
